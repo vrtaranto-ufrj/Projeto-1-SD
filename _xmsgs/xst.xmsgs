@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">/home/sd/Ula/Sistema_ULA.vhd</arg>&quot; line <arg fmt="%d" index="2">63</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;operando2&gt;, &lt;operando1&gt;, &lt;result&gt;, &lt;Zero&gt;, &lt;Overflow&gt;, &lt;Negativo&gt;, &lt;Cout&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">/home/sd/Ula/Somador.vhd</arg>&quot; line <arg fmt="%d" index="2">59</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Negativo</arg>&apos; of component &apos;<arg fmt="%s" index="4">FullAdder4bit</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">/home/sd/Ula/Subtrator.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Zero</arg>&apos; of component &apos;<arg fmt="%s" index="4">TrocadeSinal</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">/home/sd/Ula/Subtrator.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Negativo</arg>&apos; of component &apos;<arg fmt="%s" index="4">TrocadeSinal</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">/home/sd/Ula/Subtrator.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Overflow</arg>&apos; of component &apos;<arg fmt="%s" index="4">TrocadeSinal</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">/home/sd/Ula/Subtrator.vhd</arg>&quot; line <arg fmt="%d" index="2">70</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Cout</arg>&apos; of component &apos;<arg fmt="%s" index="4">TrocadeSinal</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">c&lt;4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">S_ext&lt;4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">Resp_invertido&lt;4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">inv_ext&lt;4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">incr_ext&lt;4&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">FASinal</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">FA</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+</messages>
+
