@@ -1,0 +1,107 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml Sistema_ALU.twx Sistema_ALU.ncd -o Sistema_ALU.twr
+Sistema_ALU.pcf -ucf Sistema_ALU.ucf
+
+Design file:              Sistema_ALU.ncd
+Physical constraint file: Sistema_ALU.pcf
+Device,package,speed:     xc3s700an,fgg484,-5 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk_sys to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+LEDs<0>     |   11.712(R)|clk_sys_BUFGP     |   0.000|
+LEDs<1>     |   16.972(R)|clk_sys_BUFGP     |   0.000|
+LEDs<2>     |   16.020(R)|clk_sys_BUFGP     |   0.000|
+LEDs<3>     |   15.806(R)|clk_sys_BUFGP     |   0.000|
+LEDs<4>     |   16.295(R)|clk_sys_BUFGP     |   0.000|
+LEDs<5>     |   13.786(R)|clk_sys_BUFGP     |   0.000|
+LEDs<6>     |   13.624(R)|clk_sys_BUFGP     |   0.000|
+LEDs<7>     |   15.160(R)|clk_sys_BUFGP     |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk_sys
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_sys        |    5.159|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+sel<0>         |LEDs<0>        |   11.531|
+sel<0>         |LEDs<1>        |   12.097|
+sel<0>         |LEDs<2>        |   11.465|
+sel<0>         |LEDs<3>        |   12.147|
+sel<0>         |LEDs<4>        |   11.524|
+sel<0>         |LEDs<5>        |   10.800|
+sel<0>         |LEDs<6>        |   11.047|
+sel<0>         |LEDs<7>        |   11.674|
+sel<1>         |LEDs<0>        |   10.388|
+sel<1>         |LEDs<1>        |   11.402|
+sel<1>         |LEDs<2>        |   10.558|
+sel<1>         |LEDs<3>        |   11.182|
+sel<1>         |LEDs<4>        |   10.297|
+sel<1>         |LEDs<5>        |   10.053|
+sel<1>         |LEDs<6>        |   10.081|
+sel<1>         |LEDs<7>        |   10.488|
+sel<2>         |LEDs<0>        |   10.785|
+sel<2>         |LEDs<1>        |   10.949|
+sel<2>         |LEDs<2>        |   11.066|
+sel<2>         |LEDs<3>        |   10.902|
+sel<2>         |LEDs<4>        |   11.249|
+sel<2>         |LEDs<5>        |   10.040|
+sel<2>         |LEDs<6>        |   10.012|
+sel<2>         |LEDs<7>        |    9.854|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Oct 30 11:31:31 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 377 MB
+
+
+

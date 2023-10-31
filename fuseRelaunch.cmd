@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/sd/Ula/Sistema_ALU_isim_beh.exe" -prj "/home/sd/Ula/Sistema_ALU_beh.prj" "work.Sistema_ALU" 

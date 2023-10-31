@@ -1,0 +1,48 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/sd/Ula/Sistema_ALU_isim_beh.exe -prj /home/sd/Ula/Sistema_ALU_beh.prj work.Sistema_ALU 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/sd/Ula/FullAdder1bit.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/FullAdder4bit.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Incrementa1.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Complemento1.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/TrocadeSinal.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Subtrator.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Somador.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/ShiftRight.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/ShiftLeft.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/RotationRight.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/RotationLeft.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Contador.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/ALU.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Sistema_ULA.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 96204 KB
+Fuse CPU Usage: 970 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Contador [contador_default]
+Compiling architecture behavioral of entity FullAdder1bit [fulladder1bit_default]
+Compiling architecture behavioral of entity FullAdder4bit [fulladder4bit_default]
+Compiling architecture behavioral of entity Somador [somador_default]
+Compiling architecture behavioral of entity Complemento1 [complemento1_default]
+Compiling architecture behavioral of entity Incrementa1 [incrementa1_default]
+Compiling architecture behavioral of entity TrocadeSinal [trocadesinal_default]
+Compiling architecture behavioral of entity Subtrator [subtrator_default]
+Compiling architecture behavioral of entity ShiftLeft [shiftleft_default]
+Compiling architecture behavioral of entity ShiftRight [shiftright_default]
+Compiling architecture behavioral of entity RotationLeft [rotationleft_default]
+Compiling architecture behavioral of entity RotationRight [rotationright_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity sistema_alu
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable /home/sd/Ula/Sistema_ALU_isim_beh.exe
+Fuse Memory Usage: 666508 KB
+Fuse CPU Usage: 1110 ms
+GCC CPU Usage: 930 ms

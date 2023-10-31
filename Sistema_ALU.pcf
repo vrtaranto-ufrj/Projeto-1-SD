@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Oct 30 11:31:13 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk_sys" LOCATE = SITE "E12" LEVEL 1;
+COMP "reset" LOCATE = SITE "T9" LEVEL 1;
+COMP "LEDs<0>" LOCATE = SITE "R20" LEVEL 1;
+COMP "LEDs<1>" LOCATE = SITE "T19" LEVEL 1;
+COMP "LEDs<2>" LOCATE = SITE "U20" LEVEL 1;
+COMP "LEDs<3>" LOCATE = SITE "U19" LEVEL 1;
+COMP "LEDs<4>" LOCATE = SITE "V19" LEVEL 1;
+COMP "sel<0>" LOCATE = SITE "V8" LEVEL 1;
+COMP "LEDs<5>" LOCATE = SITE "V20" LEVEL 1;
+COMP "sel<1>" LOCATE = SITE "U10" LEVEL 1;
+COMP "LEDs<6>" LOCATE = SITE "Y22" LEVEL 1;
+COMP "sel<2>" LOCATE = SITE "U8" LEVEL 1;
+COMP "LEDs<7>" LOCATE = SITE "W21" LEVEL 1;
+SCHEMATIC END;
+
