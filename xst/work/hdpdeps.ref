@@ -1,0 +1,75 @@
+V3 57
+FL /home/sd/Ula/ALU.vhd 2023/10/30.10:38:12 P.20131013
+EN work/ALU 1698676285 FL /home/sd/Ula/ALU.vhd PB ieee/std_logic_1164 1381692176
+AR work/ALU/Behavioral 1698676286 \
+      FL /home/sd/Ula/ALU.vhd EN work/ALU 1698676285 CP Somador CP Subtrator \
+      CP Incrementa1 CP TrocadeSinal CP ShiftLeft CP ShiftRight CP RotationLeft \
+      CP RotationRight
+FL /home/sd/Ula/Complemento1.vhd 2023/10/30.10:38:44 P.20131013
+EN work/Complemento1 1698676265 FL /home/sd/Ula/Complemento1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Complemento1/Behavioral 1698676266 \
+      FL /home/sd/Ula/Complemento1.vhd EN work/Complemento1 1698676265
+FL /home/sd/Ula/Contador.vhd 2023/10/30.11:30:46 P.20131013
+EN work/Contador 1698676283 FL /home/sd/Ula/Contador.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Contador/Behavioral 1698676284 \
+      FL /home/sd/Ula/Contador.vhd EN work/Contador 1698676283
+FL /home/sd/Ula/FullAdder1bit.vhd 2023/10/30.10:39:34 P.20131013
+EN work/FullAdder1bit 1698676261 FL /home/sd/Ula/FullAdder1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder1bit/Behavioral 1698676262 \
+      FL /home/sd/Ula/FullAdder1bit.vhd EN work/FullAdder1bit 1698676261
+FL /home/sd/Ula/FullAdder4bit.vhd 2023/10/30.10:39:59 P.20131013
+EN work/FullAdder4bit 1698676263 FL /home/sd/Ula/FullAdder4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder4bit/Behavioral 1698676264 \
+      FL /home/sd/Ula/FullAdder4bit.vhd EN work/FullAdder4bit 1698676263 \
+      CP work/FullAdder1bit
+FL /home/sd/Ula/Incrementa1.vhd 2023/10/30.10:40:18 P.20131013
+EN work/Incrementa1 1698676267 FL /home/sd/Ula/Incrementa1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Incrementa1/Behavioral 1698676268 \
+      FL /home/sd/Ula/Incrementa1.vhd EN work/Incrementa1 1698676267 \
+      CP work/FullAdder4bit
+FL /home/sd/Ula/RotationLeft.vhd 2023/10/30.10:40:35 P.20131013
+EN work/RotationLeft 1698676279 FL /home/sd/Ula/RotationLeft.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/RotationLeft/Behavioral 1698676280 \
+      FL /home/sd/Ula/RotationLeft.vhd EN work/RotationLeft 1698676279
+FL /home/sd/Ula/RotationRight.vhd 2023/10/30.10:41:02 P.20131013
+EN work/RotationRight 1698676281 FL /home/sd/Ula/RotationRight.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/RotationRight/Behavioral 1698676282 \
+      FL /home/sd/Ula/RotationRight.vhd EN work/RotationRight 1698676281
+FL /home/sd/Ula/ShiftLeft.vhd 2023/10/30.10:41:41 P.20131013
+EN work/ShiftLeft 1698676275 FL /home/sd/Ula/ShiftLeft.vhd PB ieee/std_logic_1164 1381692176
+AR work/ShiftLeft/Behavioral 1698676276 \
+      FL /home/sd/Ula/ShiftLeft.vhd EN work/ShiftLeft 1698676275
+FL /home/sd/Ula/ShiftRight.vhd 2023/10/30.10:42:03 P.20131013
+EN work/ShiftRight 1698676277 FL /home/sd/Ula/ShiftRight.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ShiftRight/Behavioral 1698676278 \
+      FL /home/sd/Ula/ShiftRight.vhd EN work/ShiftRight 1698676277
+FL /home/sd/Ula/Sistema_ULA.vhd 2023/10/30.10:42:27 P.20131013
+EN work/Sistema_ALU 1698676287 FL /home/sd/Ula/Sistema_ULA.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Sistema_ALU/Behavioral 1698676288 \
+      FL /home/sd/Ula/Sistema_ULA.vhd EN work/Sistema_ALU 1698676287 CP Contador \
+      CP ALU
+FL /home/sd/Ula/Somador.vhd 2023/10/30.10:42:41 P.20131013
+EN work/Somador 1698676271 FL /home/sd/Ula/Somador.vhd PB ieee/std_logic_1164 1381692176
+AR work/Somador/Behavioral 1698676272 \
+      FL /home/sd/Ula/Somador.vhd EN work/Somador 1698676271 CP work/FullAdder4bit
+FL /home/sd/Ula/Subtrator.vhd 2023/10/30.10:42:55 P.20131013
+EN work/Subtrator 1698676273 FL /home/sd/Ula/Subtrator.vhd PB ieee/std_logic_1164 1381692176
+AR work/Subtrator/Behavioral 1698676274 \
+      FL /home/sd/Ula/Subtrator.vhd EN work/Subtrator 1698676273 \
+      CP work/Complemento1 CP work/FullAdder4bit CP work/TrocadeSinal
+FL /home/sd/Ula/TrocadeSinal.vhd 2023/10/30.10:43:12 P.20131013
+EN work/TrocadeSinal 1698676269 FL /home/sd/Ula/TrocadeSinal.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/TrocadeSinal/Behavioral 1698676270 \
+      FL /home/sd/Ula/TrocadeSinal.vhd EN work/TrocadeSinal 1698676269 \
+      CP work/Complemento1 CP work/Incrementa1

@@ -1,0 +1,118 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Oct 30 11:00:07 2023
+# Process ID: 4486
+# Log file: /home/sd/Ula/planAhead_run_3/planAhead.log
+# Journal file: /home/sd/Ula/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1583 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/sd/Ula/pa.fromHdl.tcl
+# create_project -name Ula -dir "/home/sd/Ula/planAhead_run_3" -part xc3s50atq144-5
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Sistema_ALU.ucf" [current_fileset -constrset]
+Adding file '/home/sd/Ula/Sistema_ALU.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {FullAdder1bit.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {FullAdder4bit.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Incrementa1.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Complemento1.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {TrocadeSinal.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Subtrator.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Somador.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ShiftRight.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ShiftLeft.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RotationRight.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RotationLeft.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Contador.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ALU.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Sistema_ULA.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top Sistema_ALU $srcset
+# add_files [list {Sistema_ALU.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s50atq144-5
+Using Verific elaboration
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/home/sd/Ula/FullAdder1bit.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/FullAdder4bit.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Incrementa1.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Complemento1.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/TrocadeSinal.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Subtrator.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Somador.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/ShiftRight.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/ShiftLeft.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/RotationRight.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/RotationLeft.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Contador.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/ALU.vhd" into library work
+Parsing VHDL file "/home/sd/Ula/Sistema_ULA.vhd" into library work
+INFO: [Designutils 20-910] Reading macro library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn
+Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn]
+Finished Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/hd_int_macros.edn]
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s50a/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s50a/ClockBuffers.xml
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s50a/tq144/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/xc3s50a/tq144/SSORules.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3a/drc.xml
+INFO: [Timing 38-77] Reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/spartan3a-5.lib.
+INFO: [Timing 38-34] Done reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3a/spartan3a/spartan3a-5.lib.
+Parsing UCF File [/home/sd/Ula/Sistema_ALU.ucf]
+Finished Parsing UCF File [/home/sd/Ula/Sistema_ALU.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 78c5c26e
+open_rtl_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 2800.035 ; gain = 132.461
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list clk_sys]]
+set_property iostandard LVCMOS33 [get_ports [list reset]]
+set_property iostandard LVCMOS33 [get_ports [list {LEDs[7]} {LEDs[6]} {LEDs[5]} {LEDs[4]} {LEDs[3]} {LEDs[2]} {LEDs[1]} {LEDs[0]}]]
+set_property iostandard LVCMOS33 [get_ports [list {sel[2]} {sel[1]} {sel[0]}]]
+set_property package_pin "" [get_ports [list  reset]]
+set_property package_pin "" [get_ports [list  reset]]
+exit
+ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See /home/sd/Ula/planAhead_pid4486.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon Oct 30 11:01:06 2023...
+INFO: [Common 17-83] Releasing license: PlanAhead
